@@ -12,39 +12,117 @@ html(lang="en")
     link(rel='stylesheet', href='css/styles.css')
   body
     header
+      
+
       .logo
 
       .menu
-        ul.modify
-          li
-            a.btn.active
-              i.icon-cloud-download 
-              |Save
-          li
-            a.btn.btn-shoelace
-              i.icon-code-fork 
-              |Fork
+        //- ul.modify
+        //-   li
+        //-     a.btn.active
+        //-       i.icon-cloud-download 
+        //-       |Save
+        //-   li
+        //-     a.btn.btn-shoelace
+        //-       i.icon-code-fork 
+        //-       |Fork
+        
+
 
     .application-frame
       .panels-wrapper
         //- Left Side
         .navigator
+          .viewer
+          .thumbs
+            img(src="img/thumbs-1.png")
           
           
         .section-border.left
         //- Center
         .workspace
-          
+          .teleprompter
+            p Hello everyone, my name is Erik. Thank you all for beaming me in today to talk about UX.
+            p 
+            p Before we start, let me give you an idea of how far this transmission is coming from:
+            p [map]
+            p 14,000 kilometers
+            p 
+            p And here is where I am, Salt Lake City, Utah. It's 1:00 am but I'm feeling great.
+            p [picture] 
+            p UX Purpose
+            p UX as a new word
+            p Stood for "user experience"
+            p Almost always "user experience design"
+            p The question is asked "does it have good UX?"
+            p Translated "is it a good experiential outcome for the user"
+            p "Good UX" is the attention to Outcomes
+            p The purpose of UX
+            p UX is not UI
+            p UX is not UI
+            p Get rid of the "slash" in UX/UI
+            p A confusing similarity in the terms "user experience, user interface"
+            p UX is a chaotic process that designs a strategy; it builds towards a solution.
+            p Explore the purpose of UX 
+            p 
+            p 
+            p UX Design
+            p Might be perceived externally as the same
+            p Might be perceived internally as the same
+            p What if you don't do design? Can you do UX?
+            p Of course - UX is about designing solutions to problems
+            p Outcomes
+            p 
+            p The Outcomes
+            p It's the outcome of the resulting experience.
+            p Solve problems
+            p Delight
+            p Empower
+            p That is all the user is concerned with
+            p Don't fall into the trap of thinking it's about the product
+            p Let's look at the user.
+            p What the user wants
+            p They want an outcome
+            p A solution to their problem
+            p To feel better than they did moments before
+            p An opportunity to be delighted
+            p They use what we make
+            p They might like it.
+            p But it's not what they want
+            p They want their outcome
+            p They think they want a product, solution
+            p But they really want to say "this is great!"
+            p So, we're outcome focused
+            p Not product focused
+            p What we specifically build doesn't matter a whole lot
+            p We are interested in the impact
+            p The Impact
+            p We have the luxury of changing course to meet outcome
+            p Pivot, alter, start over Rework, rethink, redesign
+            p The experience is the guide on horizon 
+            p We really like making things
+            p Don't do things just to do them
+            p Be on target with the experience goal
+            p Biggest obstacle
+            p The user's don't know
+            p They don't always know their problem
+            p Might just be a "I just wish that I had…" an outcome
+
 
         .section-border.right
         
         //- Right
-        .right-panel bronto
+        .right-panel
+          .view.live-view
+          button#switch.btn.btn-success Slide Only
+          button#switch2.btn.btn-success Combined View
+          .view.self-preview
           
 
           
     footer
-      ul
-        li
-         a(href="#") Yar
-        
+      button#start.btn.btn-default start
+      button#restart.btn.btn-default restart
+      .timeline
+        .cursor
+          i.icon-play
