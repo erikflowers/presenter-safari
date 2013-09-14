@@ -172,7 +172,7 @@ width: 70px;
 }
 .running {
   left: 99%;
-  transition: left 10s linear;
+  transition: left 60s linear;
 }
 .restart {
   left: 0;
@@ -226,6 +226,9 @@ width: 70px;
     &.self-preview {
       background-image: url('../img/self-view.jpg');
     }
+    &.audience-preview {
+      background-image: url('../img/audience-view.jpg');
+    }
   }
 }
 
@@ -271,4 +274,22 @@ width: 70px;
     padding-left: 10px;
     border-right: none;
   }
+}
+
+
+.screen {
+  .background-cover();
+
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-attachment: static;
+    background-repeat: no-repeat;
+    &.live-view {
+      background-image: url('../img/live-view.jpg');
+    }
+    &.slide-view {
+      background-image: url('../img/slide-view.jpg');
+    }
+
 }

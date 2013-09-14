@@ -14,3 +14,11 @@ $ ->
   $("#switch2").click ->
     $(".view").removeClass "slide-switch"
     $(".view").addClass "live-view"
+
+  $("#present1").click ->
+    $(".view").removeClass "slide-view"
+    $(".view").addClass "live-view"
+
+  $("#present2").click ->
+    $(".view").addClass "slide-view"
+    $(".view").removeClass "live-view"
